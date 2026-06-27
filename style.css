@@ -1,0 +1,49 @@
+body{
+    flex-direction:column;
+}
+
+
+.card{
+    width:900px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 0 25px #0005;
+}
+
+
+.perfil{
+    width:45%;
+}
+
+
+.perfil h1{
+    color:#1e3c72;
+    font-size:28px;
+}
+
+
+.perfil p{
+    text-align:left;
+    color:#333;
+    margin:10px 0;
+}
+
+
+.bienvenida{
+    width:45%;
+    text-align:center;
+}
+
+
+.bienvenida h1{
+    color:#1e3c72;
+}
+
+
+.bienvenida p{
+    color:#555;
+}
